@@ -21,8 +21,21 @@
                         <input id="city" type="text" autofocus="true" class="form-input" />
                         <button class="search btn-primary" type="submit">Search</button>
                 </form>
-
-
+                <div class="past-search border" id="past-search-buttons"></div>
+            </div>
+            <div class="col-12 col-md-9">
+                <div class="row border selected-city" id="current-forecast">
+                    <div class="col-12">
+                        <h2 id="searched-city"></h2>
+                        <div id="current-weather-container" class="list-group"></div>
+                    </div>
+                    <div class = "col-12" id = "five-day-forecast">
+                        <h2 class= "col-12" id = "forecast"></h2>
+                        <div class = "d-flex" id = "fiveday-container"></div>
+                </div>  
+            </div>
+        </div>
+    </main>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
