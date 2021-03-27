@@ -1,4 +1,4 @@
-.search-column{
+.search-bar{
     background-color:	#D3D3D3;
 }
 
@@ -10,18 +10,18 @@
     flex:auto
 }
 
-span.severe{
+.severe{
     padding: 3px;
     background-color: red;
     color:white;
 }
 
-span.moderate{
+.moderate{
     padding: 3px;
     background-color: yellow;
 }
 
-span.favorable{
+.favorable{
     padding: 3px;
     background-color: green;
     color:white;
